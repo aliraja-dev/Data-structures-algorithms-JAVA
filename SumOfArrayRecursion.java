@@ -19,6 +19,6 @@ public class SumOfArrayRecursion {
 }
 
 /**
- * Sum and average of array using recursion
+ * Sum and average of array u sing recursion
  * https://www.baeldung.com/java-array-sum-average
  */
