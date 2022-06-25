@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class SumOfArrayRecursion {
     public static void main(String[] args) {
         int[] arr = { 2, 4, 5 };
@@ -6,6 +8,7 @@ public class SumOfArrayRecursion {
     }
 
     private static int sum(int[] arr, int length) {
+        Arrays.sort(arr);
         // base case where array is length zero
         if (length <= 0)
             return 0;
@@ -14,3 +17,8 @@ public class SumOfArrayRecursion {
             return sum(arr, length - 1) + arr[length - 1];
     }
 }
+
+/**
+ * Sum and average of array using recursion
+ * https://www.baeldung.com/java-array-sum-average
+ */
